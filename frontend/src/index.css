@@ -1,0 +1,29 @@
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #252525;
+    --text-primary: #e1e1e1;
+    --text-secondary: #a1a1a1;
+    --accent: #646cff;
+    --accent-hover: #7c82ff;
+    --danger: #ff4444;
+    --danger-hover: #ff6666;
+    --success: #00cc66;
+    --border: #333333;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+  
+  button {
+    font-family: 'Inter', sans-serif;
+  }
